@@ -32,9 +32,12 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
           Быстро, комфортно и безопасно — такси в любую точку города
         </p>
-        <button className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
-          Заказать такси
-        </button>
+        <a
+          href="tel:+79776607207"
+          className="inline-block bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Позвонить
+        </a>
       </div>
     </div>
   );
